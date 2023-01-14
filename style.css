@@ -1,0 +1,105 @@
+.pagecontenair{
+    background-image: url(./bg-img.jpg);
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+}
+.chaild{
+    width: 280px;
+    height: 120px;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 20px;
+    gap: 30px;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+.line{
+    line-height: 28px;
+    /* width: 350; */
+}
+.p{
+    margin-left: 30px;
+}
+#flot{
+    height: 60px;
+    width: 300px;
+    margin-top: 52px;
+    margin-left: -500px;
+    border-radius: 25px;
+}
+.sdiv{
+    /* display: flex; */
+    justify-content: space-between;
+}
+.form{
+    width: 450px;
+    height: 650px;
+    background-color: white;
+    border: 5px dashed red;
+    float: right;
+    margin-right: 400px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 30px;
+}
+.color{
+    color: rgb(201, 107, 107);
+}
+.form label{
+    color: red;
+}
+
+.circul{
+    width: 300px;
+    height: 300px;
+    border: 5px solid red;
+    border-radius: 50%;
+    padding:50px;
+    margin-top: 250px;
+    margin-left: 180px;
+    background-color: rgb(15, 244, 122);
+    text-align: center;
+}
+.circul .underline{
+    text-decoration: underline;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    margin-left: 430px;
+    width: 400px;
+    height: 60px;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 25px;
+    color: white;
+}
+.menu h1{
+    margin: 10px;
+}
+
+.contenairdiv2{
+    display: flex;
+    justify-content: space-around;
+}
+.cont2{
+    width: 300px;
+    height: 250px;
+    border: 2px solid green;
+    border-radius: 20px;
+    background-color: aqua;
+    margin-top: 40px;
+
+}
+.cont2 h1{
+    text-align: center;
+}
+.cont2 li{
+    text-align: center;
+}
